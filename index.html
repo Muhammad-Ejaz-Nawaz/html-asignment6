@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Addmition Form</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        #container {
+            width: 74%;
+            padding: 3%;
+            background-color: cornflowerblue;
+            color: aliceblue;
+        }
+
+        #firstdiv {
+            margin-left: 3%;
+        }
+
+        #seconddiv {
+            padding: 3%;
+        }
+
+        label {
+            width: 170px;
+            display: block;
+            float: left;
+        }
+
+        h2 {
+            color: aliceblue;
+            background-color: white;
+            padding: 6px;
+            color: rgb(68, 109, 155);
+            width: 70%;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+
+        input {
+            width: 235px;
+            height: 20px;
+            border: 1px solid black;
+            font-size: 14px;
+            border-radius: 2px;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+
+        #input1 {
+            width: 200px;
+        }
+
+        .label1 {
+            width: 100px;
+            display: block;
+            float: left;
+            color: black;
+        }
+
+        table {
+            /* width: 500px;
+            height: 120px; */
+            border: 1px solid white;
+            text-align: center;
+            color: aliceblue;
+            font-weight: bold;
+        }
+
+        td {
+            /* border: 1px solid white; */
+        }
+
+        span {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h2>Course Addmition Form</h2>
+        <div id="firstdiv">
+            <form action="">
+                <label for="firstneme">FIRST NAME</label>
+                <input type="text">
+                <span>(max 30 charchters a-z and A-Z)</span><br>
+                <label for="lastneme">LAST NAME</label>
+                <input type="text">
+                <span>(max 30 charchters a-z and A-Z)</span><br>
+                <label for="dateofirth">DATE OF BIRTH:</label>
+                <input style="width: 72px;" type="number" name="Day" id="" placeholder="Day">
+                <input style="width: 72px;" type="number" name="Month" id="" placeholder="Month">
+                <input style="width: 72px;" type="number" name="Year" id="" placeholder="Year"><br>
+                <label for="emailid">EMAIL ID</label>
+                <input type="email"><br>
+                <label for="mobilenumber">MOBILE NUMBER</label>
+                <input type="text" name="" id=""><span> (11 digits number)</span><br>
+                <label for="gender">GENDER</label>
+                <input style="width: 40px;" type="radio" name="gender"><span>MALE</span>
+                <input style="width: 40px;" type="radio" name="gender"><span>FEMALE</span><br>
+                <label for="address">ADDRESS</label>
+                <textarea name="" id="" cols="35" rows="7"></textarea><br><br>
+                <label for="city">CITY</label>
+                <input type="text">
+                <span>(max 30 charchters a-z and A-Z)</span><br>
+                <label for="pincode">PIN CODE</label>
+                <input type="number">
+                <span>(6 digit number)</span><br>
+                <label for="state">STATE</label>
+                <input type="text">
+                <span>(max 30 charchters a-z and A-Z)</span><br>
+                <label for="country">COUNTRY</label>
+                <select style="width: 240px; height: 25px;" name="country" id="">
+                    <option value="" selected>PAKISTAN</option>
+                    <option value="">UAE</option>
+                    <option value="">QATAR</option>
+                    <option value="">IRAQ</option>
+                    <option value="">AFGHANISTAN</option>
+                    <option value="">CHAINA</option>
+                </select><br><br>
+                <label for="hobbies">HOBBIES</label>
+                <input style="width: 40px;" type="checkbox" name="hobbies" id=""><span>NET SEARCHING</span>
+                <input style="width: 40px;" type="checkbox" name="hobbies" id=""><span>SHOPING</span>
+                <input style="width: 40px;" type="checkbox" name="hobbies" id=""><span>READING</span>
+                <input style="width: 40px;" type="checkbox" name="hobbies" id=""><span>VLOGING</span>
+                <input style="width: 40px;" type="checkbox" name="hobbies" id=""><span>OTHERS</span><br><br>
+                <label for="qualification">QUALIFICATION</label>
+                <table>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class XII</td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Graduation</td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Masters</td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                        <td><input style="width: 180px;margin-bottom: 0%; padding: 0%;" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>10 char max</td>
+                        <td>10 char max</td>
+                        <td>10 char max</td>
+                    </tr>
+                </table><br>
+                <label for="courseappliedfor">COURSES APPLIED FOR</label>
+                <input style="width: 40px;" type="radio" name="courseappliedfor"><span>BCA</span>
+                <input style="width: 40px;" type="radio" name="courseappliedfor"><span>B.COM</span>
+                <input style="width: 40px;" type="radio" name="courseappliedfor"><span>B.Sc</span>
+                <input style="width: 40px;" type="radio" name="courseappliedfor"><span>B.A</span><br><br>
+                <input
+                    style="width: 150px; height: 26px; font-weight: bold; background-color: bisque; margin-left: 15%;"
+                    type="submit" value="SUBMIT">&nbsp;&nbsp;
+                <input style="width: 150px; height: 26px; font-weight: bold; background-color: bisque;" type="reset"
+                    value="RESET">
+            </form>
+        </div>
+        <br>
+    </div>
+    <br><br>
+    <hr>
+    <!-- first Asignment Code And Here................................... -->
+    <div id="seconddiv">
+        <form action="">
+            <!-- First Image Fieldset code start -->
+            <fieldset style="width: 700px; border: 2px solid steelblue; padding: 35px; margin-bottom: 12px;">
+                <legend><b>Login Detail</b></legend>
+                <label class="lable1" for="name">Name:</label>
+                <input type="text"><br><br>
+                <label class="lable1" for="Email">Email:</label>
+                <input type="text"><br><br>
+                <label class="lable1" for="Password">Password:</label>
+                <input type="text">
+            </fieldset>
+            <fieldset style="width: 700px; border: 2px solid steelblue; padding: 35px; margin-bottom: 12px;">
+                <legend><b>Your Feedback</b></legend>
+                <p><b>Pleace check all the emotions that apply to you:</b></p>
+                <input type="checkbox" name="feedbackoptions" id="">Angry<br><br>
+                <input type="checkbox" name="feedbackoptions" id="">Sad<br><br>
+                <input type="checkbox" name="feedbackoptions" id="" checked>Happy<br><br>
+                <input type="checkbox" name="feedbackoptions" id="">Ambivalent<br><br>
+                <p><b>How satisfied were you with our service...?</b></p>
+                <input type="radio" name="feedbackoptions" id="" checked>Satisfied<br><br>
+                <input type="radio" name="feedbackoptions" id="">Very Satisfied<br><br>
+                <input type="radio" name="feedbackoptions" id="">Most Satisfied<br><br>
+                </select>
+            </fieldset>
+            <br>
+            <hr><br>
+            <!-- First Image Fieldset code End -->
+            <fieldset style="width: 700px; border: 2px solid steelblue; padding: 30px; margin-bottom: 12px;">
+                <legend><b>Ther First 1 Section</b></legend>
+                <fieldset style="width: 700px; border: 2px solid steelblue; padding: 30px; margin-bottom: 12px;">
+                    <legend><b>Ther First Subsection</b></legend>
+                    <label id="lable1" for="field1">Field1</label>
+                    <input id="lable1" type="text" name="field1">
+                </fieldset>
+                <label for="field1">Field1</label>
+                <input type="text" name="field1">
+            </fieldset>
+            <fieldset style="width: 700px; border: 2px solid steelblue; padding: 30px; margin-bottom: 12px;">
+                <legend><b>Ther Second 2 Section</b></legend>
+                <fieldset style="width: 700px; border: 2px solid steelblue; padding: 30px; margin-bottom: 12px;">
+                    <legend><b>Ther Second Subsection A</b></legend>
+                    <label for="field1">Field1</label>
+                    <input type="text" name="field1">
+                </fieldset>
+                <fieldset style="width: 700px; border: 2px solid steelblue; padding: 30px; margin-bottom: 12px;">
+                    <legend><b>Ther Second Subsection B</b></legend>
+                    <label for="field1">Field1</label>
+                    <input type="text" name="field1">
+                </fieldset>
+            </fieldset>
+            <button style="border-radius: 50px; border: 1px solid black;">Go..Go..Go</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <h2>Muhammad Ejaz Nawaz</h2>
+    <p>Web and App 117316 <br>
+        Islamic Research Center of Dawatislami Karachi
+    </p>
+</body>
+
+</html>
